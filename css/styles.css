@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    background-image: url(../multimedia/fondo-dragon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+  }
+  
+
+header {
+    background-color: #5d3c3c; 
+    color: #f4e3c1; 
+    text-shadow: 2px 2px 4px #000000;
+    border-bottom: 3px solid #a67c52; 
+}
+  
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+  
+header p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+  
+
+footer {
+    background-color: #5d3c3c;
+    color: #f4e3c1;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    border-top: 3px solid #a67c52;
+}
+  
+
+.btn {
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+  
+.btn-danger {
+    background-color: #8a4028;
+    border-color: #a67c52;
+}
+  
+.btn-danger:hover {
+    background-color: #5d3c3c;
+    color: #f4e3c1;
+}
+  
+.btn-success {
+    background-color: #4c7031;
+    border-color: #a67c52;
+}
+  
+.btn-success:hover {
+    background-color: #365122;
+    color: #f4e3c1;
+}
+  
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+  
+.bg-light {
+    background-color: #f9f4e7;
+    opacity: .8;
+    border: 2px solid #a67c52;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+  
+.bg-secondary {
+    background-color: #5d3c3c;
+    opacity: .8;
+    border-radius: 10px;
+    color: #f4e3c1;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+  
+
+form label {
+    font-weight: bold;
+    color: #f4e3c1;
+}
+  
+form input {
+    border: 2px solid #a67c52;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+  
+form input:focus {
+    outline: none;
+    border-color: #5d3c3c;
+}
+  
+
+h2, h3 {
+    color: #8a4028;
+    text-shadow: 1px 1px 3px #000000;
+}
+  
+
+a {
+    text-decoration: none;
+    color: #8a4028;
+    font-weight: bold;
+}
+  
+a:hover {
+    color: #f4e3c1;
+}
+  
+
+@media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  
+    footer {
+      font-size: 0.8rem;
+    }
+}
+  
