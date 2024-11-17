@@ -11,7 +11,7 @@ body {
     background-size: cover;
     background-repeat:no-repeat;
   }
-  
+
 
 header {
     background-color: #5d3c3c; 
@@ -95,7 +95,7 @@ main {
 
 form label {
     font-weight: bold;
-    color: #f4e3c1;
+    color: #a67c52;
 }
   
 form input {
