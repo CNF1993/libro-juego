@@ -12,6 +12,10 @@
   <header class="bg-dark text-white text-center py-3">
     <h1>Elige tu propia aventura medieval</h1>
     <p>Sumérgete en un mundo de espadas y dragones. Decide tu destino.</p>
+    <div class="audio-container text-center">
+      <audio id="audio" src="./multimedia/audio01.MP3"></audio>
+      <button id="playPauseBtn" class="btn btn-success btn-lg">Activar música</button>
+    </div>
   </header>
   <main class="container mt-5">
     <div class="row">
@@ -55,15 +59,8 @@
   <footer class="bg-dark text-white text-center py-3 mt-5">
     <p>&copy; 2024 Elige tu propia aventura medieval. Todos los derechos reservados.</p>
   </footer>
-  <audio id="audio01" autoplay loop>
-    <source src="./multimedia/audio01.MP3" type="audio/MP3">
-    Tu navegador no soporta el elemento de audio.
-  </audio>
-  <script>
-      const audio = document.getElementById('audio01');
-      audio.volume = 0.1;
-  </script>
+  <script src="./js/music.js"></script>
+  <script src="./js/login.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/login.js"></script>
 </body>
 </html>
